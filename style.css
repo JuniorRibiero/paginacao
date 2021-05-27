@@ -1,0 +1,32 @@
+*{
+    
+    margin: 0px;
+    padding: 100px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100bvh;
+}
+.paginacao{
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.paginacao span{
+    cursor: pointer;
+    min-width: 35px;
+    padding: 7px 15px;
+    background: #0e7db4;
+    color: #ffffff;
+}
+.paginacao span:hover{
+    color: #0e7db4;
+    background: #fff
+    
+}
